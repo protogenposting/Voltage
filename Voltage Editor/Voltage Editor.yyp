@@ -35,12 +35,20 @@
   },
   "name":"Voltage Editor",
   "resources":[
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"libfiledialogs","path":"extensions/libfiledialogs/libfiledialogs.yy",},},
+    {"id":{"name":"libfilesystem","path":"extensions/libfilesystem/libfilesystem.yy",},},
+    {"id":{"name":"libxprocess","path":"extensions/libxprocess/libxprocess.yy",},},
+    {"id":{"name":"obj_main","path":"objects/obj_main/obj_main.yy",},},
+    {"id":{"name":"rm_main","path":"rooms/rm_main/rm_main.yy",},},
+    {"id":{"name":"scr_files","path":"scripts/scr_files/scr_files.yy",},},
+    {"id":{"name":"scr_menu","path":"scripts/scr_menu/scr_menu.yy",},},
+    {"id":{"name":"scr_vector2","path":"scripts/scr_vector2/scr_vector2.yy",},},
+    {"id":{"name":"spr_button","path":"sprites/spr_button/spr_button.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"rm_main","path":"rooms/rm_main/rm_main.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
