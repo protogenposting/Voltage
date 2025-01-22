@@ -27,7 +27,9 @@
     {"$GMFolder":"","%Name":"Timelines","folderPath":"folders/Timelines.yy","name":"Timelines","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
   "ForcedPrefabProjectReferences":[],
-  "IncludedFiles":[],
+  "IncludedFiles":[
+    {"$GMIncludedFile":"","%Name":"song.ogg","CopyToMask":-1,"filePath":"datafiles","name":"song.ogg","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+  ],
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
@@ -43,7 +45,9 @@
     {"id":{"name":"scr_files","path":"scripts/scr_files/scr_files.yy",},},
     {"id":{"name":"scr_menu","path":"scripts/scr_menu/scr_menu.yy",},},
     {"id":{"name":"scr_vector2","path":"scripts/scr_vector2/scr_vector2.yy",},},
+    {"id":{"name":"spr_bar","path":"sprites/spr_bar/spr_bar.yy",},},
     {"id":{"name":"spr_button","path":"sprites/spr_button/spr_button.yy",},},
+    {"id":{"name":"spr_hold","path":"sprites/spr_hold/spr_hold.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
