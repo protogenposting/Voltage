@@ -23,7 +23,7 @@ timeBetweenTicks = (60/songData.bpm) * 500
 
 timeUntilNextTick = 0
 
-scrollSpeed = 0.6
+scrollSpeed = 0.8
 
 lowerBarLocation = screenHeight - 64
 
