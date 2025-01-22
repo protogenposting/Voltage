@@ -14,7 +14,7 @@ function note_at_time(_time)
 {
 	for(var i = 0; i < array_length(data.notes); i++)
 	{
-		if(data.notes[i].time == _time)
+		if(data.notes[i].time == _time && data.notes[i].type == noteType)
 		{
 			return i
 		}
@@ -39,6 +39,14 @@ songStream = undefined
 music = undefined
 
 obj_main.songStream = audio_create_stream("song.ogg")
+
+noteType = 0
+
+lastTime = 0
+
+currentMilliseconds = 0
+
+lastPress = [0,0]
 
 menu.AddButton(
 	"Bpm "+string(data.bpm),
