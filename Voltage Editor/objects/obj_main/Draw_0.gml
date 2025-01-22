@@ -118,6 +118,14 @@ for(var i = 0; i < array_length(data.notes); i++)
 				var _endY = ((_note.sections[o] - _startTime) / _beatLength) * _tileSize + _yStart 
 				draw_rectangle(_x,_y,_x + _tileSize,_endY + _tileSize,false)
 			}
+			if(_note.type == 2)
+			{
+				draw_sprite(spr_bar_left,0,_x + _tileSize / 2,_y + _tileSize / 2)
+			}
+			if(_note.type == 3)
+			{
+				draw_sprite(spr_bar_right,0,_x + _tileSize / 2,_y + _tileSize / 2)
+			}
 		}
 		_x += _tileSize
 	}
