@@ -20,7 +20,7 @@ if(keyboard_check_pressed(vk_space))
 	{
 		music = audio_play_sound(songStream,1000,false)
 		
-		audio_sound_set_track_position(music, (section * 8 * _beatLength) / 1000)
+		audio_sound_set_track_position(music, (section * zoom * _beatLength) / 1000)
 	}
 	else
 	{
@@ -46,6 +46,11 @@ if(music != undefined)
 			
 			audio_sound_gain(_aud,4,0)
 		}
+	}
+	
+	if(currentMilliseconds >= (section + 1) * zoom * _beatLength)
+	{
+		section++
 	}
 }
 

@@ -48,6 +48,8 @@ currentMilliseconds = 0
 
 lastPress = [0,0]
 
+zoom = 8
+
 menu.AddButton(
 	"Bpm "+string(data.bpm),
 	spr_button,

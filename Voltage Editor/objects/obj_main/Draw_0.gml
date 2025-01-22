@@ -6,7 +6,7 @@ var _beatLength = (60/data.bpm * 1000) / 4
 
 var _x = 256
 
-var _displayedRows = 8
+var _displayedRows = zoom
 
 var _startTime = section * _displayedRows * _beatLength
 
@@ -116,7 +116,7 @@ for(var i = 0; i < array_length(data.notes); i++)
 			if(_note.type == 1)
 			{
 				var _endY = ((_note.sections[o] - _startTime) / _beatLength) * _tileSize + _yStart 
-				draw_rectangle(_x,_y,_x + _tileSize,_endY,false)
+				draw_rectangle(_x,_y,_x + _tileSize,_endY + _tileSize,false)
 			}
 		}
 		_x += _tileSize
