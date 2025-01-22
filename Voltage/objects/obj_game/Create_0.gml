@@ -1,7 +1,5 @@
 songData = load_file(global.currentChart)
 
-show_debug_message(songData)
-
 musicStream = audio_create_stream(global.currentSong + "/song.ogg")
 
 music = undefined
