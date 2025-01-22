@@ -1,0 +1,7 @@
+taps = []
+
+holds = []
+
+swipes = []
+
+holdsLast = []
